@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover, user-scalable=no,minimal-ui">
+		<title>Kylin Token official website</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<style type="text/css">
+			.logo {
+				width: 60%;
+			}
+
+			.img {
+				width: 100%;
+			}
+
+			.float_btn {
+				box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.5);
+				color: #1e0035;
+				transition: all 0.3s;
+				position: fixed;
+				top: 220px;
+				right: 12px;
+				width: 70px;
+				height: 70px;
+				background-color: #feccda;
+				display: flex;
+				flex-flow: column;
+				justify-content: center;
+				align-items: center;
+				z-index: 999;
+				border-radius: 35px;
+				cursor: pointer;
+				font-size: 18px;
+				font-weight: bold;
+			}
+		</style>
+		
+		<script>
+			function toGuideView() {
+				console.log('toGuideView')
+				location.href = "./guideList.html"
+			}
+		</script>
+	</head>
+	<body>
+		<div id="app">
+			<div class="float_btn" onclick="toGuideView()">
+				<div>新手</div>
+				<div class="mar-t-3">指南</div>
+			</div>
+			<img class="img" src="./images/Kylin海报_01.jpg">
+			<img class="img" src="./images/Kylin海报_02.jpg">
+			<img class="img" src="./images/Kylin海报_03.jpg">
+			<img class="img" src="./images/Kylin海报_04.jpg">
+			<img class="img" src="./images/Kylin海报_05.jpg">
+
+		</div>
+	</body>
+</html>
