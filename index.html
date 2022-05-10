@@ -20,19 +20,13 @@
 			.contact{
 				background-color: #ff5500;
 				color:white;
-				padding: 36px;
-				border-bottom: 1px solid white;
+				padding: 20px 26px;
 			}
 			
 			.float_btn {
 				box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.5);
 				color: #1e0035;
 				transition: all 0.3s;
-				position: fixed;
-				top: 220px;
-				right: 12px;
-				width: 70px;
-				height: 70px;
 				background-color: #feccda;
 				display: flex;
 				flex-flow: column;
@@ -44,20 +38,40 @@
 				font-size: 18px;
 				font-weight: bold;
 			}
+			.float_btn_base1{
+				position: fixed;
+				bottom: 12px;
+				left: 12px;
+				width: 70px;
+				height: 70px;
+			}
+			.float_btn_base2{
+				position: fixed;
+				bottom: 12px;
+				right: 12px;
+				width: 70px;
+				height: 70px;
+			}
 		</style>
 		
 		<script>
 			function toGuideView() {
-				console.log('toGuideView')
 				location.href = "./guideList.html"
+			}
+			function toDZView() {
+				location.href = "http://note.youdao.com/noteshare?id=58287212ad2a61a09165bed33e7fe7dd"
 			}
 		</script>
 	</head>
 	<body>
 		<div id="app">
-			<div class="float_btn" onclick="toGuideView()">
+			<div class="float_btn float_btn_base1" onclick="toGuideView()">
 				<div>新手</div>
 				<div class="mar-t-3">指南</div>
+			</div>
+			<div class="float_btn float_btn_base2" onclick="toDZView()">
+				<div>合约</div>
+				<div class="mar-t-3">定制</div>
 			</div>
 			<img class="img" src="./images/Kylin海报_01.jpg">
 			<div class="contact">
@@ -67,7 +81,11 @@
 			<img class="img" src="./images/Kylin海报_03.jpg">
 			<img class="img" src="./images/Kylin海报_04.jpg">
 			<img class="img" src="./images/Kylin海报_05.jpg">
-
+			<div class="flex flex-column align-center justify-around" style="background-color: #1e0136;">
+				<img style="width: 21.5rem;height: 21.5rem;" src="./images/logo.png">
+				<div class="font-color-fff font-size-24 mar-t-10">麒麟通证，欢迎您的加入！</div>
+				<div style="height: 100px; width:100%;"></div>
+			</div>
 		</div>
 	</body>
 </html>
