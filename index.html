@@ -1,2 +1,91 @@
-<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>慕课新闻</title><script>var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
-            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')</script><link rel=stylesheet href=./static/index.a5c69d49.css></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=./static/js/chunk-vendors.af667f2f.js></script><script src=./static/js/index.e0535262.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover, user-scalable=no,minimal-ui">
+		<title>Kylin Token official website</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<style type="text/css">
+			.logo {
+				width: 60%;
+			}
+
+			.img {
+				width: 100%;
+			}
+			
+			.contact{
+				background-color: #ff5500;
+				color:white;
+				padding: 20px 26px;
+			}
+			
+			.float_btn {
+				box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.5);
+				color: #1e0035;
+				transition: all 0.3s;
+				background-color: #feccda;
+				display: flex;
+				flex-flow: column;
+				justify-content: center;
+				align-items: center;
+				z-index: 999;
+				border-radius: 35px;
+				cursor: pointer;
+				font-size: 18px;
+				font-weight: bold;
+			}
+			.float_btn_base1{
+				position: fixed;
+				bottom: 12px;
+				left: 12px;
+				width: 70px;
+				height: 70px;
+			}
+			.float_btn_base2{
+				position: fixed;
+				bottom: 12px;
+				right: 12px;
+				width: 70px;
+				height: 70px;
+			}
+		</style>
+		
+		<script>
+			function toGuideView() {
+				location.href = "./guideList.html"
+			}
+			function toDZView() {
+				location.href = "http://note.youdao.com/noteshare?id=58287212ad2a61a09165bed33e7fe7dd"
+			}
+		</script>
+	</head>
+	<body>
+		<div id="app">
+			<div class="float_btn float_btn_base1" onclick="toGuideView()">
+				<div>新手</div>
+				<div class="mar-t-3">指南</div>
+			</div>
+			<div class="float_btn float_btn_base2" onclick="toDZView()">
+				<div>合约</div>
+				<div class="mar-t-3">定制</div>
+			</div>			
+			<img class="img" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-767674fd-0f0e-4801-90e6-bef27c2e36df/adb33bc0-ab7f-4cbc-a836-1113e3b673c2.jpg">
+			<div class="contact">
+				合约地址：0x0000000000000000000000000000000000000000
+			</div>
+			<img class="img" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-767674fd-0f0e-4801-90e6-bef27c2e36df/948ebfaf-f71a-4e72-83f4-169649ad3aa6.jpg">
+			<img class="img" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-767674fd-0f0e-4801-90e6-bef27c2e36df/223ac102-63aa-42ab-b042-1d800bfe9db2.jpg">
+			<img class="img" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-767674fd-0f0e-4801-90e6-bef27c2e36df/4efe09a5-1e9c-4dd2-9e37-3f2aa31ca41e.jpg">
+			<img class="img" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-767674fd-0f0e-4801-90e6-bef27c2e36df/297207e7-24b1-45b7-b4de-c63c78ba1e98.jpg">
+			<div class="flex flex-column align-center justify-around" style="background-color: #1e0136;">
+				<img style="width: 21.5rem;height: 21.5rem;" src="./images/logo.png">
+				<div class="font-color-fff font-size-24 mar-t-10">麒麟通证，欢迎您的加入！</div>
+				<div style="height: 100px; width:100%;"></div>
+			</div>
+		</div>
+	</body>
+</html>

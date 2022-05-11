@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3021001 */
+  src: url('//at.alicdn.com/t/font_3021001_cb30xermit.woff2?t=1652077222365') format('woff2'),
+       url('//at.alicdn.com/t/font_3021001_cb30xermit.woff?t=1652077222365') format('woff'),
+       url('//at.alicdn.com/t/font_3021001_cb30xermit.ttf?t=1652077222365') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e60b";
+}
+
+.icon-address-plain:before {
+  content: "\e8b2";
+}
+
+.icon-switch:before {
+  content: "\e607";
+}
+
+.icon-right-close-fill:before {
+  content: "\e676";
+}
+
+.icon-add:before {
+  content: "\e622";
+}
+
+.icon-refresh:before {
+  content: "\e628";
+}
+
+.icon-my-apply:before {
+  content: "\e684";
+}
+
+.icon-guanyuwomen:before {
+  content: "\e63e";
+}
+
+.icon-browse:before {
+  content: "\e638";
+}
+
+.icon-collect:before {
+  content: "\e627";
+}
+
+.icon-company-info:before {
+  content: "\e61f";
+}
+
+.icon-pass-check:before {
+  content: "\e611";
+}
+
+.icon-checking:before {
+  content: "\e6cd";
+}
+
+.icon-wait-check:before {
+  content: "\e610";
+}
+
+.icon-my:before {
+  content: "\e60e";
+}
+
+.icon-home:before {
+  content: "\e636";
+}
+
+.icon-home-fill:before {
+  content: "\e609";
+}
+
+.icon-my-fill:before {
+  content: "\e60d";
+}
+
+.icon-phone-fill:before {
+  content: "\e8be";
+}
+
+.icon-navigate-fill:before {
+  content: "\e634";
+}
+
+.icon-apply-fill:before {
+  content: "\e783";
+}
+
+.icon-arrow-up:before {
+  content: "\e647";
+}
+
+.icon-arrow-down-fill:before {
+  content: "\e60a";
+}
+
+.icon-arrow-up-fill:before {
+  content: "\e62f";
+}
+
+.icon-address:before {
+  content: "\e672";
+}
+
+.icon-arrow_right_fat:before {
+  content: "\e62c";
+}
+
+.icon-good:before {
+  content: "\e601";
+}
+
+.icon-good-fill:before {
+  content: "\ec8c";
+}
+
+.icon-right-fill:before {
+  content: "\e8bd";
+}
+
+.icon-close-fill:before {
+  content: "\e7b7";
+}
+
+.icon-close:before {
+  content: "\eaf2";
+}
+
+.icon-tip:before {
+  content: "\e8c6";
+}
+
+.icon-reply:before {
+  content: "\e6ca";
+}
+
+.icon-love:before {
+  content: "\e602";
+}
+
+.icon-love-active:before {
+  content: "\e663";
+}
+
+.icon-more:before {
+  content: "\e608";
+}
+
+.icon-rule:before {
+  content: "\e81f";
+}
+
+.icon-record:before {
+  content: "\e8ad";
+}
+
+.icon-view:before {
+  content: "\e625";
+}
+
+.icon-read:before {
+  content: "\e810";
+}
+
+.icon-dot:before {
+  content: "\e711";
+}
+
+.icon-share:before {
+  content: "\e75d";
+}
+
+.icon-scan:before {
+  content: "\e635";
+}
+
+.icon-play:before {
+  content: "\ea82";
+}
+
+.icon-playing:before {
+  content: "\e61e";
+}
+
+.icon-wodezichan:before {
+  content: "\e646";
+}
+
+.icon-add-bold:before {
+  content: "\e686";
+}
+
+.icon-log:before {
+  content: "\e715";
+}
+
+.icon-edit:before {
+  content: "\ec88";
+}
+
+.icon-arrow-down:before {
+  content: "\e648";
+}
+
+.icon-rili:before {
+  content: "\e685";
+}
+
+.icon-select:before {
+  content: "\e661";
+}
+
+.icon-select1:before {
+  content: "\e640";
+}
+
+.icon-dashang:before {
+  content: "\e6c7";
+}
+
+.icon-fenxiang:before {
+  content: "\e60f";
+}
+
+.icon-search:before {
+  content: "\e600";
+}
+
+.icon-cuowuguanbiquxiao-yuankuang:before {
+  content: "\e8e7";
+}
+
+.icon-youjiantou:before {
+  content: "\e658";
+}
+
+.icon-xiajiantou:before {
+  content: "\eb6d";
+}
+
+.icon-zuojiantou:before {
+  content: "\e692";
+}
