@@ -48,6 +48,9 @@ body{
 	flex-direction: column;
 	box-sizing: border-box;
 }
+.indent2em{
+	text-indent: 2em;
+}
 .box-shadow{
 	box-shadow: 0 0 5px 1px rgba($color: #000000, $alpha: 0.1);
 }
@@ -764,52 +767,52 @@ body{
   font-weight: 600;
 }
 .font-size-10 {
-  font-size: 10px !important;
+  font-size: 1.0rem !important;
 }
 .font-size-11 {
-  font-size: 11px !important;
+  font-size: 1.1rem !important;
 }
 .font-size-12 {
-  font-size: 12px !important;
+  font-size: 1.2rem !important;
 }
 .font-size-13{
-	font-size: 26px !important;
+	font-size: 1.3rem !important;
 }
 .font-size-14{
-	font-size: 14px !important;
+	font-size: 1.4rem !important;
 }
 .font-size-15{
-	font-size: 15px !important;
+	font-size: 1.5rem !important;
 }
 .font-size-16 {
-  font-size: 16px !important;
+  font-size: 1.6rem !important;
 }
 .font-size-17 {
-  font-size: 17px !important;
+  font-size: 1.7rem !important;
 }
 .font-size-18 {
-  font-size: 18px !important;
+  font-size: 1.8rem !important;
 }
 .font-size-20 {
-  font-size: 20px !important;
+  font-size: 2.0rem !important;
 }
 .font-size-22 {
-  font-size: 22px !important;
+  font-size: 2.2rem !important;
 }
 .font-size-23 {
-  font-size: 23x !important;
+  font-size: 2.3rem !important;
 }
 
 .font-size-24 {
-  font-size: 24px !important;
+  font-size: 2.4rem !important;
 }
 
 .font-size-26 {
-  font-size: 26px !important;
+  font-size: 26rem !important;
 }
 
 .font-size-28{
-	font-size: 28px !important;
+	font-size: 2.8rem !important;
 }
 
 .font-size-30 {
