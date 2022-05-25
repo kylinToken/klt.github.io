@@ -1226,7 +1226,9 @@ body{
 }
 
 .list .item {
-	font-size: 1.7rem;line-height: 1.5em;text-align: justify;
+	font-size: 1.7rem;
+	line-height: 1.5em;
+	text-align: justify;
 	margin-bottom: 3px;
 }
 .list .item2 {
