@@ -1,3 +1,2 @@
 # klt.github.io
-Kylin coin official website（麒麟通证官网）
-建设中......
+Kylin coin official website 麒麟通证官网
