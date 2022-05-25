@@ -9,9 +9,6 @@
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 		<style type="text/css">
-			#app {
-				background-color: #1e0136;
-			}
 
 			.logo {
 				width: 60%;
@@ -62,7 +59,24 @@
 			.titleImg {
 				width: 164px;
 			}
-
+			
+			.titleBox{
+				border-bottom: 3px solid #cfcfcf;
+			}
+			.title{
+				background-image: linear-gradient(to right, #4125c7 , #ff5500);
+				font-size: 1.8rem;
+				color: white;
+				padding:0rem 1.6rem;
+				letter-spacing: 1px;
+				font-weight: bold;
+				height: 3.6rem;
+				line-height: 3.6rem;
+				border-top-right-radius: 1.8rem;
+				/* border-bottom-right-radius: 1.8rem; */
+				/* border-bottom: 3px solid #cfcfcf; */
+			}
+			
 			.list {
 				padding: 1.6rem 1.6rem
 			}
@@ -110,16 +124,22 @@
 				合约地址：0x0000000000000000000000000000000000000000
 			</div>
 			<div class="box flex flex-column mar-t-20">
-				<img class="titleImg" src="./images/01.png">
+				<!-- <img class="titleImg" src="./images/01.png"> -->
+				<div class="flex align-center titleBox">
+					<span class="title">麒麟通证特色</span>
+				</div>
 				<div class="list">
 					<div class="item">1.社区自治，项目方手里不预留代币，不存在老鼠仓。</div>
-					<div class="item">2.DeFi金融智能合约新模式，拥有矿机模式，团队等级制度，防砸制度，可谓DeFi界难得一见的创新网红。</div>
+					<div class="item">2.DeFi金融智能合约新模式，拥有矿机模式、团队等级制度、防砸制度、持币拉新分红等制度，可谓DeFi界难得一见的创新网红。</div>
 					<div class="item">3.不仅有每笔交易销毁3%，还有团队长可通过销毁麒麟通证来定制属于自己的合约。在双销毁的加速燃烧下，保证麒麟通证拥有者的资产能稳步增长。</div>
-					<div class="item">4.有香港实体公司背后神秘支持，以及会有香港多个币圈财团分阶段入场，目标第一年涨到10刀一枚、第二年涨到100刀一枚.....五年内涨到1万刀一枚。</div>
+					<div class="item">4.有香港实体公司背后神秘支持，以及会有香港多个币圈财团分阶段入场，目标五年内涨到1万刀一枚。</div>
 				</div>
 			</div>
 			<div class="box">
-				<img class="titleImg" src="./images/02.png">
+				<!-- <img class="titleImg" src="./images/02.png"> -->
+				<div class="flex align-center titleBox">
+					<span class="title">麒麟文化</span>
+				</div>
 				<div class="list">
 					<div class="item indent2em">
 						麒麟是古代神话中的一种神兽，寓意着人们对于美好生活的一种向往。麒麟是吉祥的代表，将其安放在家中，镇宅辟邪，增添家中吉祥的作用，不单令屋主事业顺畅，连带财运亦会好转。麒麟在风水中就象万金油，旺财，镇宅，化煞，旺人丁，求子，旺文等，各方面都可以使用。
@@ -130,18 +150,20 @@
 				</div>
 			</div>
 			<div class="box">
-				<img class="titleImg" src="./images/03.png">
+				<!-- <img class="titleImg" src="./images/03.png"> -->
+				<div class="flex align-center titleBox">
+					<span class="title">交易规则</span>
+				</div>
 				<div class="list">
-					<div class="item">交易机制：手续费10%</div>
+					<div class="item">手续费10%</div>
 					<div class="item">2%营销钱包(注1)</div>
 					<div class="item">2%空投奖励(注2)</div>
-					<div class="item">3%流动性分红(注3)</div>
+					<div class="item">3%流动性分红</div>
 					<div class="item">3%燃烧销毁</div>
 					
-					<div class="item font-size-17 font-color-yellow">注1：===========。</div>
-					<div class="item font-size-17 font-color-red font-bold mar-t-10">交易规则(防砸制度):</div>
+					<div class="item font-size-17 font-color-yellow">● 注1：营销钱包中的Token会自动分红给推广拉新的团队长，具体比例见下方的"团队长等级"。</div>
+					<div class="item font-size-17 font-color-yellow">● 注2：给好友发空投，即可绑定直推关系，A的一代直推每次交易奖励A空投奖励中70%的代币，A的二代直推每次交易奖励A空投奖励中30%的代币。比如：A推广了B，B推广了C，B买入或卖出10000个代币奖励A10000×2%×70%=140个代币。C买入或卖出10000个代币奖励A 10000×2%×30%=60个代币。</div>
 					
-					<div class="item font-size-17 font-color-yellow">注2：给好友发空投，即可绑定直推关系，A的一代直推每次交易奖励A空投奖励中70%的代币，A的二代直推每次交易奖励A空投奖励中30%的代币。比如：A推广了B，B推广了C，B买入或卖出10000个代币奖励A10000×2%×70%=140个代币。C买入或卖出10000个代币奖励A 10000×2%×30%=60个代币。</div>
 					<div class="item font-size-17 font-color-red font-bold mar-t-10">交易规则(防砸制度):</div>
 					<div class="item font-size-17 font-color-red">1.所有人每24小时最多卖出一次，且每次不得超过”可流通量/500“的Token数量。</div>
 					<div class="item font-size-17 font-color-red">2.上线去中心化交易所后的24小时内，为打散Token的分布，限制单次最大买入量为”可流通量/500“，24小时后解除单次买入量限制并丢弃合约的管理员权限。</div>
@@ -151,36 +173,42 @@
 				</div>
 			</div>
 			<div class="box">
-				<img class="titleImg" src="./images/04.png">
+				<!-- <img class="titleImg" src="./images/04.png"> -->
+				<div class="flex align-center titleBox">
+					<span class="title">团队长等级</span>
+				</div>
 				<div class="list line15">
 					<div class="flex align-center font-size-15 text-left line15">
-						<div class="flex1">团队长等级</div><div class="mar-l-15 flex2 font-size-15">空投人数</div><div class="mar-l-15 flex-1">奖励Token数量</div>
+						<div class="flex1">等级</div><div class="mar-l-15 flex2 font-size-15">空投人数</div><div class="mar-l-15 flex-1">分红</div>
 					</div>
 					<div class="flex align-center font-size-14 text-left line15">
-						<div class="flex1">V1</div><div class="mar-l-15 flex2">3</div><div class="mar-l-15 flex3 font-size-12">可流通量/1000000+额外奖励</div>
+						<div class="flex1">V1</div><div class="mar-l-15 flex2">3</div><div class="mar-l-15 flex3 font-size-12">可流通量/1000000+额外分红</div>
 					</div>
 					<div class="flex align-center font-size-14 text-left line15">
-						<div class="flex1">V2</div><div class="mar-l-15 flex2">50</div><div class="mar-l-15 flex3">可流通量/10000+额外奖励</div>
+						<div class="flex1">V2</div><div class="mar-l-15 flex2">50</div><div class="mar-l-15 flex3">可流通量/10000+额外分红</div>
 					</div>
 					<div class="flex align-center font-size-14 text-left line15">
-						<div class="flex1">V3</div><div class="mar-l-15 flex2">200</div><div class="mar-l-15 flex3">可流通量/1000+额外奖励</div>
+						<div class="flex1">V3</div><div class="mar-l-15 flex2">200</div><div class="mar-l-15 flex3">可流通量/1000+额外分红</div>
 					</div>
 					<div class="flex align-center font-size-14 text-left line15">
-						<div class="flex1">V4</div><div class="mar-l-15 flex2">500</div><div class="mar-l-15 flex3">可流通量/500+额外奖励</div>
+						<div class="flex1">V4</div><div class="mar-l-15 flex2">500</div><div class="mar-l-15 flex3">可流通量/500+额外分红</div>
 					</div>
 					<div class="flex align-center font-size-14 text-left line15">
-						<div class="flex1">V5</div><div class="mar-l-15 flex2">1000</div><div class="mar-l-15 flex3">可流通量/200+额外奖励</div>
+						<div class="flex1">V5</div><div class="mar-l-15 flex2">1000</div><div class="mar-l-15 flex3">可流通量/200+额外分红</div>
 					</div>
 					<div class="flex align-center font-size-14 text-left line15">
-						<div class="flex1">V6</div><div class="mar-l-15 flex2">3000</div><div class="mar-l-15 flex3">可流通量/100+额外奖励</div>
+						<div class="flex1">V6</div><div class="mar-l-15 flex2">3000</div><div class="mar-l-15 flex3">可流通量/100+额外分红</div>
 					</div>
 					<div class="item font-size-15 font-color-yellow">
-						注意：额外奖励，即每邀请1人额外奖励营销地址中X%的Token。V1为1%，V2为2%，V3为3%......V6为6%。
+						注：额外分红，即每邀请1人额外分红营销地址中X%的Token。V1为1%，V2为2%，V3为3%......V6为6%。
 					</div>
 				</div>
 			</div>
 			<div class="box">
-				<img class="titleImg" src="./images/05.png">
+				<!-- <img class="titleImg" src="./images/05.png"> -->
+				<div class="flex align-center titleBox">
+					<span class="title">矿机类型</span>
+				</div>
 				<div class="list line15">
 					<div class="flex align-center font-size-16 text-left line15">
 						<div class="flex1">类型</div><div class="mar-l-15 flex-1">售价</div><div class="mar-l-15 flex-1">产出</div>
@@ -198,7 +226,29 @@
 						<div class="flex1">mill_1_100</div><div class="mar-l-15 flex-1">可流通量/100</div><div class="mar-l-15 flex3">售价*107%</div>
 					</div>
 					<div class="item font-size-15 font-color-yellow">
-						注意：
+						注：
+					</div>
+					<div class="item font-size-15 font-color-yellow">
+						1.每人只能拥有一台矿机。	
+					</div>
+					<div class="item font-size-15 font-color-yellow">
+						2.矿机初始运行周期为30天，被挖数量每减少一半即减产，矿机运行周期会加30天，如：被挖数量初始值为200万个Token，当剩下100万个时，矿机运行周期自动变为60天，当剩下50万个时，矿机运行周期自动变为90天。
+					</div>
+				</div>
+			</div>
+			<div class="box">
+				<!-- <img class="titleImg" src="./images/05.png"> -->
+				<div class="flex align-center titleBox">
+					<span class="title">持币分红</span>
+				</div>
+				<div class="list">
+					<div class="item indent2em">
+						持有Token连续30天没卖出过后，每空投推广一人即可额外获得持有Token数的千分之二的分红奖励。
+					</div>
+				</div>
+				<div class="list line15">
+					<div class="item font-size-15 font-color-yellow">
+						注：
 					</div>
 					<div class="item font-size-15 font-color-yellow">
 						1.每人只能拥有一台矿机。	
